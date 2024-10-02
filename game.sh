@@ -1,4 +1,4 @@
-echo "Welcome to the Adventure Game!"
+echo "Welcome to the Ultimate Adventure Game!"
 echo "choose a location to explore: forest, castle, or cave."
 read location 
 if [ "$location" == "forest" ]; then 
@@ -10,4 +10,5 @@ cat cave.txt
 else
 echo "Invalid location"
 fi
+
 
